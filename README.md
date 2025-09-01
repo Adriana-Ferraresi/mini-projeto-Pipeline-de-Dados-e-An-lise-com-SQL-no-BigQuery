@@ -21,6 +21,53 @@ Ferramentas utilizadas:
 
 # Objetivo
 
+# Pipeline de dados
+Criamos scripts SQL através de quatro etapas, abaixo temos 
+
+**Etapa 1 - Definição do esquema:**
+   
+**Etapa 2 - Inserção dos Dados:**
+
+**Etapa 3 - Análise de Dados e insights**
+
+
+   -- Pergunta 1: Qual o nome dos clientes que moram no estado de 'SP'?
+   
+
+   -- Pergunta 2: Quais produtos pertencem à categoria 'Ficção Científica'?
+   ![Imagem do WhatsApp de 2025-08-31 à(s) 16 34 46_a1b97991](https://github.com/user-attachments/assets/1ecdad04-5344-48b9-acf5-121e273eccf0)
+
+
+   -- Pergunta 3: Listar todas as vendas, mostrando o nome do cliente, o nome do produto e a data da venda. Ordene pela data.
+   ![Imagem do WhatsApp de 2025-08-31 à(s) 16 36 33_2d2412d1](https://github.com/user-attachments/assets/5dfd8d96-66db-43f6-894b-bd0c172dea00)
+
+
+   -- Pergunta 4: Qual o valor total de cada venda? (quantidade * preço)
+   ![Imagem do WhatsApp de 2025-08-31 à(s) 16 37 55_f8e643a1](https://github.com/user-attachments/assets/f89c3c02-0d6a-40da-8782-dd18041e8322)
+
+
+   -- Pergunta 5: Qual o produto mais vendido em termos de quantidade?
+   ![Imagem do WhatsApp de 2025-08-31 à(s) 16 39 58_c1de6705](https://github.com/user-attachments/assets/e491e7a8-527b-4295-8623-50a30ad3c025)
+
+
+**Etapa 4 - Criação da View**
+
+      ![Imagem do WhatsApp de 2025-08-31 à(s) 16 56 17_01165f0e](https://github.com/user-attachments/assets/75d12973-3afc-4a1c-990e-7b91da8fd6ae)
+   _Comentários - Criação da View:_
+
+
+
+# Conclusão
+
+
+
+
+
+   
+
+
+
+
 # Perguntas do Mini Projeto - Reflexão:
 - Por que uma planilha não é ideal para uma empresa que quer analisar suas vendas a fundo?
 
