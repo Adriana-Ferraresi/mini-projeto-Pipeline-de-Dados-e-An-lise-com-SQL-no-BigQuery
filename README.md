@@ -28,9 +28,13 @@ Ferramentas utilizadas:
 # Pipeline de dados - Passo a Passo
 Criamos scripts SQL através de quatro etapas, abaixo temos os links do código de cada script e as represetações no BigQuery de cada passo.
 
-<https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/01_create_tables_bigquery.sql>
-<https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/02_insert_data_bigquery.sql>
-<https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/03_analysis_and_view_bigquery.sql>
+Link BigQuery: <https://console.cloud.google.com/bigquery?invt=Ab6-Yw&project=t1engenhariadados&ws=!1m14!1m4!4m3!1st1engenhariadados!2sLivrariaDevSaber_T3_1!3sClientes!1m4!4m3!1st1engenhariadados!2sLivrariaDevSaber_T3_1!3sProdutos!1m3!3m2!1st1engenhariadados!2sLivrariaDevSaber_T3_1&authuser=1>
+
+Link 1: <https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/01_create_tables_bigquery.sql>
+
+Link 2: <https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/02_insert_data_bigquery.sql>
+
+Link 3: <https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/03_analysis_and_view_bigquery.sql>
 
 **Etapa 1 - Definição do esquema:**
 
