@@ -5,9 +5,21 @@ Este projeto é uma simulação de trabalho. A "Livraria DevSaber" é uma livrar
 
 Equipe - Engenharia de Dados - Grupo 3_1: 
 @Adriana-Ferraresi
+@Derlaine
+@Fabiana 
+@ndflor
+@leonardo
 
 
 Ferramentas utilizadas:
+1. Google BigQuery
+Para armazenar as tabelas ( Clientes, Produtos, Vendas) e processar as consultas SQL.
+
+2. SQL (Linguagem de Consulta Estruturada)
+Para criar tabelas (CREATE TABLE), inserir dados (ONSERT INTO) e consultar com SELECT, JOIN e VIEW.
+
+3.Plataforma de nuvem do Google (GCP)
+O BigQuery faz parte dela, então usamos a própria infraestrutura na nuvem do Google para manipular os dados.
 
 
 # Objetivo
@@ -51,15 +63,14 @@ Resposta: Inserir primeiro Clientes e Produtos cria uma base normalizada (modelo
 
 - Em um cenário com milhões de vendas por dia, o `INSERT INTO` seria a melhor abordagem?
 
-Resposta:
-
+ Resposta: Não, o 'INSERT INTO' manual só faz sentido se usado para um pequeno volume de dados ou para testes. Se os dados podem esperar alguns minutos ou horas → Batch Load é a melhor prática (mais barato e rápido). Mas se precisar de dados em tempo real → Streaming de Inserts via API é recomendado.
 
 - Qual é a principal vantagem de usar uma `VIEW` em vez de simplesmente salvar o código em um arquivo de texto?
 
-Resposta:
+Resposta: A principal vantagem é que a VIEW fica armazenada dentro do banco de dados (no BigQuery, dentro do dataset) e pode ser reutilizada como se fosse uma tabela. Logo ao criar uma VIEW toda a equipe terá acesso rápido, atualizado e controlado à mesma lógica de consulta.
 
 
 - Se o preço de um produto mudar na tabela `Produtos`, o `Valor_Total` na `VIEW` será atualizado automaticamente na próxima vez que a consultarmos?
 
-Resposta:
+Resposta: Sim, o Valor_Total na VIEW será atualizado automaticamente na próxima vez consultada pois a VIEW não armazena os dados prontos, e sim guarda a lógica SQL. Portanto, cada vez que você faz um SELECT, a VIEW no BigQuery executa o SQL “ao vivo” sobre as tabelas originais ( Vendas, Produtos, Clientes).
 
