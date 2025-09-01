@@ -28,6 +28,10 @@ Ferramentas utilizadas:
 # Pipeline de dados - Passo a Passo
 Criamos scripts SQL através de quatro etapas, abaixo temos os links do código de cada script e as represetações no BigQuery de cada passo.
 
+<https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/01_create_tables_bigquery.sql>
+<https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/02_insert_data_bigquery.sql>
+<https://github.com/ndflor/mini-projeto-Pipeline-de-Dados-e-An-lise-com-SQL-no-BigQuery/blob/main/03_analysis_and_view_bigquery.sql>
+
 **Etapa 1 - Definição do esquema:**
 
 _Comentário: Nesta etapa, estruturamos os dados da livraria em um modelo relacional, criando as tabelas Clientes , Produtos e Vendas . Essa normalização garante consistência, evita redundâncias e facilita consultas analíticas. A separação por entidades também permite maior flexibilidade para futuras expansões do banco e integrações com outras fontes de dados._
