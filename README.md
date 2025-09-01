@@ -12,14 +12,11 @@ Equipe - Engenharia de Dados - Grupo 3_1:
 
 
 Ferramentas utilizadas:
-1. Google BigQuery
-Para armazenar as tabelas ( Clientes, Produtos, Vendas) e processar as consultas SQL.
+1. Google BigQuery: Para armazenar as tabelas ( Clientes, Produtos, Vendas) e processar as consultas SQL.
 
-2. SQL (Linguagem de Consulta Estruturada)
-Para criar tabelas (CREATE TABLE), inserir dados (ONSERT INTO) e consultar com SELECT, JOIN e VIEW.
+2. SQL (Linguagem de Consulta Estruturada): Para criar tabelas (CREATE TABLE), inserir dados (ONSERT INTO) e consultar com SELECT, JOIN e VIEW.
 
-3. Plataforma de nuvem do Google (GCP)
-O BigQuery faz parte dela, então usamos a própria infraestrutura na nuvem do Google para manipular os dados.
+3. Plataforma de nuvem do Google (GCP): O BigQuery faz parte dela, então usamos a própria infraestrutura na nuvem do Google para manipular os dados.
 
 
 # Objetivo
