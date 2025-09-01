@@ -29,7 +29,9 @@ Ferramentas utilizadas:
 Criamos scripts SQL através de quatro etapas, abaixo temos os links do código de cada script e as represetações no BigQuery de cada passo.
 
 **Etapa 1 - Definição do esquema:**
-_Comentário:_
+
+_Comentário: Nesta etapa, estruturamos os dados da livraria em um modelo relacional, criando as tabelas Clientes , Produtos e Vendas . Essa normalização garante consistência, evita redundâncias e facilita consultas analíticas. A separação por entidades também permite maior flexibilidade para futuras expansões do banco e integrações com outras fontes de dados._
+
 Clientes
 <img width="2876" height="967" alt="image" src="https://github.com/user-attachments/assets/3c085faa-1edf-4934-b757-16e04e384cbf" />
 
@@ -42,7 +44,9 @@ Vendas
 
    
 **Etapa 2 - Inserção dos Dados:**
-_Comentário:_
+
+_Comentário: Nesta etapa, realizamos a carga inicial das tabelas Clientes e Produtos antes de popular a tabela de Vendas . Essa abordagem segue boas práticas de banco de dados, pois garante que todas as referências de clientes e produtos existam anteriormente, garantindo consistência nas consultas posteriores. Além disso, aprender que, em cenários de grande volume de dados, o uso de inserções em lote ou ferramentas de utilização massiva é mais eficiente do que depende apenas de INSERT INTO._
+
 Clientes
 <img width="2929" height="571" alt="image" src="https://github.com/user-attachments/assets/294733dc-7eb5-4816-a30e-cb1c3c1e072e" />
 
@@ -58,7 +62,7 @@ Vendas
 
 
 **Etapa 3 - Análise de Dados e insights**
-_Comentários:_
+_Comentários: Nesta etapa, utilizamos consultas SQL e Views para explorar os dados e gerar informações relevantes para o negócio. Com isso, o dono da livraria pode responder perguntas importantes que estão logo abaixo. Essa análise fornece insights estratégicos que apoiam a tomada de decisão e demonstram o valor de organizar os dados em um banco como o BigQuery._
 
    -- Pergunta 1: Qual o nome dos clientes que moram no estado de 'SP'?
    <img width="2808" height="1377" alt="image" src="https://github.com/user-attachments/assets/996b91f9-7110-4782-a184-248b9c597898" />
@@ -81,7 +85,7 @@ _Comentários:_
 
 
 **Etapa 4 - Criação da View**
-   _Comentários:_
+   _Comentários: Nesta etapa, criamos uma View para facilitar a análise dos dados sem a necessidade de reescrever consultas complexas. A View funciona como uma consulta salva, sempre atualizada com os dados mais recentes, permitindo ao dono da livraria acompanhar indicadores de vendas de forma prática, rápida e consistente._
       ![Imagem do WhatsApp de 2025-08-31 à(s) 16 56 17_01165f0e](https://github.com/user-attachments/assets/75d12973-3afc-4a1c-990e-7b91da8fd6ae)
 
 
