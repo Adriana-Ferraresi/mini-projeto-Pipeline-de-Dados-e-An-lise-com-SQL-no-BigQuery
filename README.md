@@ -49,7 +49,9 @@ Vendas
    
 **Etapa 2 - Inserção dos Dados:**
 
-_Comentário: Nesta etapa, realizamos a carga inicial das tabelas Clientes e Produtos antes de popular a tabela de Vendas . Essa abordagem segue boas práticas de banco de dados, pois garante que todas as referências de clientes e produtos existam anteriormente, garantindo consistência nas consultas posteriores. Além disso, aprender que, em cenários de grande volume de dados, o uso de inserções em lote ou ferramentas de utilização massiva é mais eficiente do que depende apenas de INSERT INTO._
+_Comentário: Nesta etapa, realizamos a carga inicial das tabelas Clientes e Produtos antes de popular a tabela de Vendas. Essa abordagem segue boas práticas de banco de dados, pois garante que todas as referências de clientes e produtos existam anteriormente, garantindo consistência nas consultas posteriores. Além disso, aprender que, em cenários de grande volume de dados, o uso de inserções em lote ou ferramentas de utilização massiva é mais eficiente do que depende apenas de INSERT INTO._
+
+Os dados iniciais que estavam na tabela estavam duplicados, então realizamos uma limpeza dos dados para corrigir este problema.
 
 Clientes
 <img width="2929" height="571" alt="image" src="https://github.com/user-attachments/assets/294733dc-7eb5-4816-a30e-cb1c3c1e072e" />
@@ -68,11 +70,11 @@ Vendas
 **Etapa 3 - Análise de Dados e insights**
 _Comentários: Nesta etapa, utilizamos consultas SQL e Views para explorar os dados e gerar informações relevantes para o negócio. Com isso, o dono da livraria pode responder perguntas importantes que estão logo abaixo. Essa análise fornece insights estratégicos que apoiam a tomada de decisão e demonstram o valor de organizar os dados em um banco como o BigQuery._
 
-   -- Pergunta 1: Qual o nome dos clientes que moram no estado de 'SP'?
+   -- Pergunta 1: Qual o nome dos clientes que moram no estado de 'SP'? R. Carla Dias e Ana Silva
    <img width="2808" height="1377" alt="image" src="https://github.com/user-attachments/assets/996b91f9-7110-4782-a184-248b9c597898" />
 
 
-   -- Pergunta 2: Quais produtos pertencem à categoria 'Ficção Científica'?
+   -- Pergunta 2: Quais produtos pertencem à categoria 'Ficção Científica'? R. "Duna" e "O Guia do Mochileiro"
    ![Imagem do WhatsApp de 2025-08-31 à(s) 16 34 46_a1b97991](https://github.com/user-attachments/assets/1ecdad04-5344-48b9-acf5-121e273eccf0)
 
 
@@ -84,7 +86,7 @@ _Comentários: Nesta etapa, utilizamos consultas SQL e Views para explorar os da
    ![Imagem do WhatsApp de 2025-08-31 à(s) 16 37 55_f8e643a1](https://github.com/user-attachments/assets/f89c3c02-0d6a-40da-8782-dd18041e8322)
 
 
-   -- Pergunta 5: Qual o produto mais vendido em termos de quantidade?
+   -- Pergunta 5: Qual o produto mais vendido em termos de quantidade? R. Fundamentos de SQL
    ![Imagem do WhatsApp de 2025-08-31 à(s) 16 39 58_c1de6705](https://github.com/user-attachments/assets/e491e7a8-527b-4295-8623-50a30ad3c025)
 
 
